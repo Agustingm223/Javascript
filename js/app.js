@@ -119,7 +119,7 @@ const actualizarTotal = (contenedor) => {
 };
 
 //TRAEMOS LOS PRODUCTOS DEL JSON LOCAL
-fetch("./js/menu.json")
+fetch("./js/mouse.json")
 	.then((response) => response.json())
 	.then((productos) => {
 		mostrarProductos(productos);

@@ -2,13 +2,13 @@ body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-	background-color: black;
+	background-color: white;
     background-size: cover;
     width: 100%;
 }
 
 header {
-	background-color: rgb(255, 51, 0);
+	background-color: rgb(54, 54, 54);
 	height: 120px;
 	margin: 20px;
 	border-radius: 15px;
@@ -31,7 +31,7 @@ header ul li a {
 	border-radius: 15px;
 	transition: .5s;}
 header ul li a:hover {
-	color: rgb(255, 51, 0);
+	color: rgb(54, 54, 54);
 	background-color: rgb(253, 88, 38); }
 header nav {
 	width: 100%;
@@ -57,7 +57,7 @@ color: white;
 font-size: 35px;
 }
 
-.menu {
+.mouse {
 	max-width: 800px;
 	margin: 2em auto;
 	text-align: center;
@@ -74,7 +74,7 @@ font-size: 35px;
 }
 
 .product-list li {
-	border: 1px solid rgb(255, 51, 0);
+	border: 1px solid rgb(54, 54, 54);
 	padding: 1em;
 	background-color: white;
 	border-radius: 15PX;
@@ -102,7 +102,7 @@ font-size: 35px;
 	cursor: pointer;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: rgb(255, 51, 0);
+	background-color: rgb(54, 54, 54);
 	color: white;
 	border-radius: 12px;
 	padding: 1rem 0.8rem;
@@ -118,13 +118,13 @@ font-size: 35px;
 .add-to-cart:hover,
 .remove:hover,
 .button:hover {
-	background-color: black;
-	color: rgb(255, 51, 0);
-	border: 1px solid rgb(255, 51, 0);
+	background-color: rgb(253, 88, 38);
+	color: rgb(54, 54, 54);
+	border: 1px solid rgb(54, 54, 54);
 }
 
 footer {
-	border-top: 1px solid rgb(255, 51, 0);
+	border-top: 1px solid rgb(54, 54, 54);
 }
 
 footer p {
@@ -141,7 +141,7 @@ footer p {
 }
 
 .productsCart li {
-	border-bottom: 1px solid rgb(255, 51, 0);
+	border-bottom: 1px solid rgb(54, 54, 54);
 	padding: 1rem;
 	display: flex;
 	list-style: none;
